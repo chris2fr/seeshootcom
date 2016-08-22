@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>BIG Gallery</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui"/>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+<link rel="shortcut icon" href="img/favicon.ico"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="css/css_ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/css.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+<link rel="stylesheet" type='text/css' href='js/simplemodal/css/basic.css' media='screen' />
+<link rel="stylesheet" type="text/css" href="js/superfish/css/superfish.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/superfish/css/superfish-vertical.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/jScrollPane/style/jquery.jscrollpane.css" media="all" />
+<link rel="stylesheet" type="text/css" href="js/video-js/video-js.css" media="all" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/carouFredSel/jquery.carouFredSel-3.2.1-packed.js"></script>
+<script type='text/javascript' src='js/debouncedresize/jquery.debouncedresize.js'></script>
+<script type="text/javascript" src="js/timer/jquery.timers.js"></script>
+<script type="text/javascript" src='js/simplemodal/js/jquery.simplemodal.js'></script>
+<script type="text/javascript" src="js/superfish/js/hoverIntent.js"></script>
+<script type="text/javascript" src="js/superfish/js/superfish.js"></script>
+<script type="text/javascript" src="js/fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/qtip/jquery.qtip-1.0.0-rc3.min.js"></script> 
+<script type="text/javascript" src="js/tweetie/tweetie.js"></script> 
+<script type="text/javascript" src="js/filterable/js/filterable.js" ></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/big_gallery.js"></script>
+<script type="text/javascript" src="js/validate.js"></script>
+<script type="text/javascript" src="js/jScrollPane/script/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jScrollPane/script/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/video-js/video.js"></script>
+<script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/TinyNav/tinynav.min.js"></script>
+<script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+<script type="text/javascript" src="js/lazyload/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="js/responsiveslides/responsiveslides.min.js"></script>
+</head>
+
+<body id="body">
+<!-- Page loading icon -->
+<div id="loader"><img src="img/loader2.gif" alt="please wait, site is loading"/></div>
+<!-- Background -->
+
+<!-- Logo -->
+<div id="logo"><a href="index.html" title="Big Gallery"></a></div>
+<!-- Menu show -->
+<div id="menu-show"><div id="menu-show-arrow"></div></div>
+<div id="menu-hide"><div id="menu-hide-arrow"></div></div>
+<!-- Menu div start -->
+<div id="menu">
+		<!-- Superfish menu start -->
+		<ul class="sf-menu sf-vertical">
+			<li>
+				<a href="index.html">HOME</a>
+			</li>
+			<li>
+				<a href="video.html">HOME VIDEO</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="video.html">self-hosted mp 4 video bg</a></li>
+							<li><a href="youtube.html">youtube mp 4 video bg</a></li>
+							<li><a href="vimeo.html">vimeo mp 4 video bg</a></li>
+					</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="about.html">FEATURES</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="about.html">with image bg</a></li>
+							<li><a href="about-video.html">self-hosted mp 4 video bg</a></li>
+							<li><a href="about-youtube.html">youtube mp 4 video bg</a></li>
+							<li><a href="about-vimeo.html">vimeo mp 4 video bg</a></li>
+							<li><a href="#">Third level</a>
+								<ul>
+									<li><a href="#">Sample link</a></li>
+									<li><a href="#">Sample link</a></li>
+								</ul>
+							</li>
+						</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="#">PORTFOLIO</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="gallery_fill.html">Full & fill</a></li>
+							<li><a href="gallery_uncut.html">Full uncut</a></li>
+							<li><a href="gallery_fw.html">Full width</a></li>
+							<li><a href="gallery_fh.html">Full height</a></li>
+							<li><a href="gallery_2c.html">2 columns</a></li>
+							<li><a href="gallery_3c.html">3 columns</a></li>
+							<li><a href="gallery_4c.html">4 columns</a></li>
+							<li><a href="gallery_slides.html">slideshow</a></li>
+					</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="modernblog.html">BLOG</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="modernblog.html">Modern blog</a></li>
+							<li><a href="blog.html">Classic blog</a></li>
+							<li><a href="modernblogpost.html">Blog post</a></li>
+					</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="contact.html">CONTACT</a>
+			</li>	
+			<li>
+				<a href="../light/index.html">LIGHT SKIN</a>
+			</li>	
+		</ul><!-- Superfish menu end -->
+		<!-- Social and stock icons start -->
+		<ul class="buy">
+			<li>&nbsp;</li>
+			<li>BUY PHOTOS:</li>
+			<li>
+				<ul>
+					<li><a href="#" title="Shutterstock" class="qtip"><img src="img/icons/stock/shutterstock.png" alt="Shutterstock" /></a></li>
+					<li><a href="#" title="iStock" class="qtip"><img src="img/icons/stock/istock.png" alt="iStock" /></a></li>
+					<li><a href="#" title="Fotolia" class="qtip"><img src="img/icons/stock/fotolia.png" alt="Fotolia" /></a></li>
+					<li><a href="#" title="photodune" class="qtip"><img src="img/icons/stock/photodune.png" alt="photodune" /></a></li>
+					<li><a href="#" title="Dreamstime" class="qtip"><img src="img/icons/stock/dreamstime.png" alt="Dreamstime" /></a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="follow">
+			<li>FOLLOW ME:</li>
+			<li>
+				<ul>
+					<li><a href="#" title="Facebook" class="qtip"><img src="img/icons/social/facebook.png" alt="Facebook" /></a></li>
+					<li><a href="#" title="Twitter" class="qtip"><img src="img/icons/social/twitter.png" alt="Twitter" /></a></li>
+					<li><a href="#" title="Google Plus" class="qtip"><img src="img/icons/social/gplus.png" alt="Google Plus" /></a></li>
+					<li><a href="#" title="Flickr" class="qtip"><img src="img/icons/social/flickr.png" alt="Flickr" /></a></li>
+					<li><a href="#" title="RSS" class="qtip"><img src="img/icons/social/rss.png" alt="RSS" /></a></li>
+				</ul>
+			</li>
+		</ul><!-- Social and stock icons end -->
+</div><!-- Menu div end -->
+
+<div id="fullscreen"><div id="fullscreen_icon" title="Toggle fullscreen" class="qtip"></div></div>
+<div id="video_play"><div id="play_icon" title="Viedo play/pause" class="qtip"></div></div>
+<div id="video_sound"><div id="sound_icon" title="Sound on/off" class="qtip"></div></div>
+
+<!-- page content -->
+<div id="page">
+<div class="big_header"><h1 class="big_header">Features</h1></div>
+
+<div class="submenu">
+<a href="#images" class="custom_font filter">paragraphs</a>
+<a href="#code" class="custom_font filter">code and quote</a>
+<a href="#lists" class="custom_font filter">lists</a>
+<a href="#columns" class="custom_font filter">columns</a>
+<a href="#headers" class="custom_font filter">headers</a>
+<a href="#blocks" class="custom_font filter">info blocks</a>
+</div>
+<div class="scroll-pane">
+<div class="page_block">
+
+
+
+<p class="margin_2line" id="images">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, nunc in adipiscing consectetur. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+<h3 class="margin_2line margin_bottom_1line">Left float image</h3>
+<div class="item floatleft">
+				<img src="img/photos/photo1.jpg" alt=""/>
+				<a class="fancybox" href="img/photos/photo1_big.jpg" title="">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+</div>
+<p class=""><span class="highlight">This image is left aligned. It has on-hover description.</span> Tellus, sed egestas velit tellus a ipsum. Ut enim ad minima veniam. Integer pretium tellus nec nibh imperdiet id auctor tellus gravida. Nulla vehicula auctor ante, quis vulputate purus tincidunt in. Nulla facilisi. In nec massa mi. Suspendisse at nisi id nulla bibendum sodales vel id ipsum. Duis fermentum interdum elit ut mollis. Sed diam nunc, aliquet vitae vulputate sed, sollicitudin vitae velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, nunc in adipiscing consectetur, libero velit egestas tellus, sed egestas velit tellus a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, nunc in adipiscing consectetur. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+
+
+<h3 class="margin_2line margin_bottom_1line">Right float image</h3>
+
+
+<div class="item floatright">
+				<img src="img/photos/photo4.jpg" alt=""/>
+				<a class="fancybox" href="img/photos/photo4_big.jpg" title="">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+</div>
+
+<p class=""><span class="highlight">This image is right aligned. It has on-hover description.</span> Praesent molestie placerat feugiat. Eam convallis fringilla dui, sit amet ultrices massa tempus vitae. Integer aliquam feugiat orci a aliquet. Duies eros tortor, imperdiet et sollicitudin eget, ornare vitae purus. Pellentesque habitant morbi tristique sentus et netus et malesuada fames ac turpis egestas. Inger sit amet purus et magna dignissim venenatis. Fusce euismod pulvinar augue non blandit. Quisque sed lacus enim. Aliquam id ipsum est, sed bibendum libero. Nam condimentum justo eu purus lobortis blandit. </p>
+
+
+<h3 class="margin_2line margin_bottom_1line">Centered image with qTip</h3>
+<!-- <a class="fancybox qtip" href="img/photos/photo5_big.jpg" title="This is photo description"><img class="floatcenter margin_1line" src="img/photos/photo5.jpg" alt=""/></a> -->
+
+<div class="item floatcenter">
+				<img src="img/photos/photo5.jpg" alt=""/>
+				<a class="fancybox qtip" href="img/photos/photo5_big.jpg" title="This is qTip description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+</div>
+<h3 class="margin_2line">Paragraph with dropcap</h3>
+<p class="dropcap  margin_1line">Donec quis est non arcu lobortis consequat. Aenean dignissim nunc id lectus scelerisque ullamcorper. Nullam quis neque elementum est ultricies sodales eu ac lectus. Suspendisse potenti. Quisque commodo iaculis lectus eget pharetra. Morbi nec ultricies diam. Nulla dapibus adipiscing egestas. Quisque blandit dui arcu. Fusce eget tellus ac nisi scelerisque gravida. </p>
+
+<h3 class="margin_2line">Paragraph with links and highligths</h3>
+<p class="margin_1line"><span class="highlight">Ut enim ad minima veniam</span>. Integer <a href="#" class="qtip" title="link title">placerat feugiat</a> nec nibh imperdiet id auctor tellus gravida. Nulla vehicula auctor ante, quis vulputate purus tincidunt in. Nulla facilisi. In nec massa mi. Suspendisse at nisi id nulla bibendum sodales vel id ipsum. <span class="highlight2">Duis fermentum interdum elit ut mollis</span>. Sed diam nunc, <a href="#" class="qtip" title="link title">placerat feugiat</a> vitae vulputate sed, <span class="highlight3">sollicitudin vitae velit</span>.</p>
+
+<h3 class="margin_2line" id="code">This is a piece of code</h3>
+<code class="margin_1line">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, nunc in adipiscing consectetur, libero velit egestas tellus, sed egestas velit tellus a ipsum.
+</code>
+<h3 class="margin_2line">This is a quote</h3>
+<blockquote class="margin_1line">Pellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst. Sed venenatis luctus enim eu accumsan. In in enim mauris. </blockquote>
+
+
+
+<div class="column_cont" id="lists">
+	<div class="one-third margin_1line">
+	  <h3 class="margin_1line">Unordered list</h3>
+		<ul class="margin_1line">
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Duis tempor augue vel lectus.</li>
+			<li>Phasellus nec sapien mauris.</li>
+			<li>Vivamus non mi quis purus.</li>
+			<li>Nullam dapibus mattis auguen.</li>
+			<li>Aliquam vitae eros diam.</li>
+		</ul>
+	</div>
+	<div class="one-third margin_1line">
+	  <h3 class="margin_1line">Ordered list</h3>
+		<ol class="margin_1line">
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Duis tempor augue vel lectus.</li>
+			<li>Phasellus nec sapien mauris.</li>
+			<li>Vivamus non mi quis purus.</li>
+			<li>Nullam dapibus mattis auguen.</li>
+			<li>Aliquam vitae eros diam.</li>
+		</ol>
+	</div>
+	<div class="one-third margin_1line">
+	  <h3 class="margin_1line">Custom list with links</h3>
+		<ul class="links">
+			<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+			<li><a href="#">Duis tempor augue vel lectus.</a></li>
+			<li><a href="#">Phasellus nec sapien mauris.</a></li>
+		</ul>
+	</div>
+</div>
+<div class="clear"></div>
+
+<h3 class="margin_2line margin_bottom_1line">This is a table</h3>
+<table class="">
+				<tr>
+					<th>header 1</th><th>header 2</th><th>header 3</th><th>header 4</th>
+				</tr>
+				<tr>
+						<td>item 1-1</td><td>item 1-2</td><td>item 1-3</td><td>item 1-4</td>
+				</tr>
+				<tr>
+					<td>item 2-1</td><td>item 2-2</td><td>item 2-3</td><td>item 2-4</td>
+				</tr>
+				<tr>
+					<td>item 3-1</td><td>item 3-2</td><td>item 3-3</td><td>item 3-4</td>
+				</tr>
+				<tr>
+					<td>item 4-1</td><td>item 4-2</td><td>item 4-3</td><td>item 4-4</td>
+				</tr>
+			</table>
+
+
+
+	
+	
+			
+<div class="column_cont margin_2line" id="columns">		
+		<div class="one-half">	
+			<h3>One-half column</h3>
+			<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+		</div>
+		<div class="one-half">
+		<h3>One-half column</h3>
+		<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+		</div>	
+</div>
+<div class="clear"></div>
+
+<div class="column_cont margin_2line">		
+	<div class="one-third">		
+		<h3>One-third column</h3>
+		<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>
+	<div class="one-third">		
+	<h3>One-third column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>	
+	<div class="one-third">		
+	<h3>One-third column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>
+</div>
+<div class="clear"></div>
+
+<div class="column_cont margin_2line">		
+	<div class="one-third">		
+		<h3>One-third column</h3>
+		<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>
+	<div class="two-third">		
+	<h3>Two-third column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst. Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>	
+</div>
+<div class="clear"></div>
+
+<div class="column_cont margin_2line">	
+		<div class="two-third">		
+		<h3>Two-third column</h3>
+		<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst. Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.. </p>
+	</div>
+	<div class="one-third">		
+	<h3>One-third column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>	
+</div>
+<div class="clear"></div>
+
+<div class="column_cont">		
+	<div class="one-fourth margin_2line">		
+		<h3>1/4  column</h3>
+		<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>
+	<div class="one-fourth margin_2line">		
+	<h3>1/4  column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>	
+	<div class="one-fourth margin_2line">		
+	<h3>1/4  column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>
+	<div class="one-fourth margin_2line">		
+	<h3>1/4  column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>
+</div>
+
+<div class="clear"></div>
+<div class="column_cont margin_2line">		
+	<div class="one-fourth">		
+		<h3>1/4 column</h3>
+		<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst.</p>
+	</div>
+	<div class="three-fourth">		
+	<h3>3/4 column</h3>
+	<p class="margin_1line">Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst. Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan. Phasellus porta euismod volutpat. Donec a nibh eros. Fusce scelerisque egestas magna quis eleifend. In hac habitasse platea dictumst. Ellentesque condimentum, nunc vitae pharetra condimentum, ante arcu adipiscing ligula, id porta ligula tellus ac quam. Sed vitae mi at nulla vehicula accumsan.</p>
+	</div>	
+</div>
+<div class="clear"></div>
+
+<h1 class="margin_2line margin_bottom_1line" id="headers">This is a H1 Header</h1>
+<p class="">Phasellus porta euismod volutpat. Donec a nibh eros.</p>
+<h2 class="margin_2line margin_bottom_1line">This is a H2 Header</h2>
+<p class="">Phasellus porta euismod volutpat. Donec a nibh eros.</p>
+<h3 class="margin_2line margin_bottom_1line">This is a H3 Header</h3>
+<p class="">Phasellus porta euismod volutpat. Donec a nibh eros.</p>
+<h4 class="margin_2line margin_bottom_1line">This is a H4 Header</h4>
+<p class="">Phasellus porta euismod volutpat. Donec a nibh eros.</p>
+<h5 class="margin_2line margin_bottom_1line">This is a H5 Header</h5>
+<p class="">Phasellus porta euismod volutpat. Donec a nibh eros.</p>
+<h6 class="margin_2line margin_bottom_1line">This is a H6 Header</h6>
+<p class="">Phasellus porta euismod volutpat. Donec a nibh eros.</p>
+
+ <h3 class="margin_2line" id="blocks">Info blocks</h3>
+	<div class="column_cont">		
+		<div class="one-half">	
+			<blockquote class="success margin_1line">This is a <strong>success</strong> message</blockquote>
+			<blockquote class="error margin_1line">This is a <strong>error</strong> message</blockquote>
+		</div>
+		<div class="one-half">
+			<blockquote class="info margin_1line">This is a <strong>info</strong> message</blockquote>
+			<blockquote class="warning margin_1line">This is a <strong>warning</strong> message</blockquote>
+		</div>	
+	</div>
+ <div class="clear"></div>
+
+</div><!-- page-block div end -->
+<div class="page-footer">&copy; BIG Gallery</div>
+
+</div><!-- scroll-pane div end -->
+
+</div><!-- page div end -->
+<div id="video-pattern"></div>
+<!-- video start -->
+<div id="player_overlay2"></div>
+<iframe id="vimeovideo" src="http://player.vimeo.com/video/106990857?api=1&autoplay=1&loop=1&badge=0&byline=0&title=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<script>
+var iframe = document.getElementById('vimeovideo');
+var vimeoplayer = $f(iframe);
+</script>
+<!-- video end -->
+
+</body>
+</html>

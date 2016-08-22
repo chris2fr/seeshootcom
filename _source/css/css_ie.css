@@ -1,0 +1,40 @@
+
+
+
+body {
+	z-index:1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ filter:none !important;
+}
+
+h1.big_header {
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135, strength=4) !important;
+}
+
+.page_block {
+	background: #222222 !important;
+}
+
+.submenu a:hover {
+	filter:none !important;
+}
+
+.butt  , .butt:focus {
+		background: #161616 !important;
+		background-image: url(../img/button_arrow.png) !important;
+		background-position: right center !important;
+		background-repeat:no-repeat !important;
+}
+
+.butt:hover, .butt:active {
+		background: #161616 !important;
+		background-image: url(../img/button_arrow_hover.png) !important;
+		background-position: right center !important;
+		background-repeat:no-repeat !important;
+}
+
+.buy li a, .follow li a{
+	height:19px !important;
+}

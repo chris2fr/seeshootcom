@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>BIG Gallery</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui"/>
+		
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+<link rel="shortcut icon" href="img/favicon.ico"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="css/css_ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/css.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+<link rel="stylesheet" type='text/css' href='js/simplemodal/css/basic.css' media='screen' />
+<link rel="stylesheet" type="text/css" href="js/superfish/css/superfish.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/superfish/css/superfish-vertical.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/jScrollPane/style/jquery.jscrollpane.css" media="all" />
+<link rel="stylesheet" type="text/css" href="js/video-js/video-js.css" media="all" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/carouFredSel/jquery.carouFredSel-3.2.1-packed.js"></script>
+<script type='text/javascript' src='js/debouncedresize/jquery.debouncedresize.js'></script>
+<script type="text/javascript" src="js/timer/jquery.timers.js"></script>
+<script type="text/javascript" src='js/simplemodal/js/jquery.simplemodal.js'></script>
+<script type="text/javascript" src="js/superfish/js/hoverIntent.js"></script>
+<script type="text/javascript" src="js/superfish/js/superfish.js"></script>
+<script type="text/javascript" src="js/fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/qtip/jquery.qtip-1.0.0-rc3.min.js"></script> 
+<script type="text/javascript" src="js/tweetie/tweetie.js"></script> 
+<script type="text/javascript" src="js/filterable/js/filterable.js" ></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/big_gallery.js"></script>
+<script type="text/javascript" src="js/validate.js"></script>
+<script type="text/javascript" src="js/jScrollPane/script/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jScrollPane/script/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/video-js/video.js"></script>
+<script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/TinyNav/tinynav.min.js"></script>
+<script type="text/javascript" src="js/lazyload/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="js/responsiveslides/responsiveslides.min.js"></script>
+</head>
+
+<body id="body">
+<!-- Page loading icon -->
+<div id="loader"><img src="img/loader2.gif" alt="please wait, site is loading"/></div>
+<!-- Background -->
+<div id="background"><img src="gallery/full/18.jpg" alt=""/></div>
+<!-- Logo -->
+<div id="logo"><a href="index.html" title="Big Gallery"></a></div>
+<!-- Menu show -->
+<div id="menu-show"><div id="menu-show-arrow"></div></div>
+<div id="menu-hide"><div id="menu-hide-arrow"></div></div>
+<!-- Menu div start -->
+<div id="menu">
+		<!-- Superfish menu start -->
+		<ul class="sf-menu sf-vertical">
+			<li>
+				<a href="index.html">HOME</a>
+			</li>
+			<li>
+				<a href="video.html">HOME VIDEO</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="video.html">self-hosted mp 4 video bg</a></li>
+							<li><a href="youtube.html">youtube mp 4 video bg</a></li>
+							<li><a href="vimeo.html">vimeo mp 4 video bg</a></li>
+					</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="about.html">FEATURES</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="about.html">with image bg</a></li>
+							<li><a href="about-video.html">self-hosted mp 4 video bg</a></li>
+							<li><a href="about-youtube.html">youtube mp 4 video bg</a></li>
+							<li><a href="about-vimeo.html">vimeo mp 4 video bg</a></li>
+							<li><a href="#">Third level</a>
+								<ul>
+									<li><a href="#">Sample link</a></li>
+									<li><a href="#">Sample link</a></li>
+								</ul>
+							</li>
+						</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="#">PORTFOLIO</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="gallery_fill.html">Full & fill</a></li>
+							<li><a href="gallery_uncut.html">Full uncut</a></li>
+							<li><a href="gallery_fw.html">Full width</a></li>
+							<li><a href="gallery_fh.html">Full height</a></li>
+							<li><a href="gallery_2c.html">2 columns</a></li>
+							<li><a href="gallery_3c.html">3 columns</a></li>
+							<li><a href="gallery_4c.html">4 columns</a></li>
+							<li><a href="gallery_slides.html">slideshow</a></li>
+					</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="modernblog.html">BLOG</a>
+					<!-- Superfish menu second level start -->
+					<ul>
+							<li><a href="modernblog.html">Modern blog</a></li>
+							<li><a href="blog.html">Classic blog</a></li>
+							<li><a href="modernblogpost.html">Blog post</a></li>
+					</ul><!-- Superfish menu second level end -->	
+			</li>
+			<li>
+				<a href="contact.html">CONTACT</a>
+			</li>	
+			<li>
+				<a href="../light/index.html">LIGHT SKIN</a>
+			</li>	
+		</ul><!-- Superfish menu end -->
+		<!-- Social and stock icons start -->
+		<ul class="buy">
+			<li>&nbsp;</li>
+			<li>BUY PHOTOS:</li>
+			<li>
+				<ul>
+					<li><a href="#" title="Shutterstock" class="qtip"><img src="img/icons/stock/shutterstock.png" alt="Shutterstock" /></a></li>
+					<li><a href="#" title="iStock" class="qtip"><img src="img/icons/stock/istock.png" alt="iStock" /></a></li>
+					<li><a href="#" title="Fotolia" class="qtip"><img src="img/icons/stock/fotolia.png" alt="Fotolia" /></a></li>
+					<li><a href="#" title="photodune" class="qtip"><img src="img/icons/stock/photodune.png" alt="photodune" /></a></li>
+					<li><a href="#" title="Dreamstime" class="qtip"><img src="img/icons/stock/dreamstime.png" alt="Dreamstime" /></a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="follow">
+			<li>FOLLOW ME:</li>
+			<li>
+				<ul>
+					<li><a href="#" title="Facebook" class="qtip"><img src="img/icons/social/facebook.png" alt="Facebook" /></a></li>
+					<li><a href="#" title="Twitter" class="qtip"><img src="img/icons/social/twitter.png" alt="Twitter" /></a></li>
+					<li><a href="#" title="Google Plus" class="qtip"><img src="img/icons/social/gplus.png" alt="Google Plus" /></a></li>
+					<li><a href="#" title="Flickr" class="qtip"><img src="img/icons/social/flickr.png" alt="Flickr" /></a></li>
+					<li><a href="#" title="RSS" class="qtip"><img src="img/icons/social/rss.png" alt="RSS" /></a></li>
+				</ul>
+			</li>
+		</ul><!-- Social and stock icons end -->
+</div><!-- Menu div end -->
+
+<div id="fullscreen"><div id="fullscreen_icon" title="Toggle fullscreen" class="qtip"></div></div>
+<div id="sound"><div id="sound_icon" title="Sound on/off" class="qtip"></div></div>
+
+<!-- page content -->
+<div id="page">
+<div class="big_header"><h1 class="big_header">Gallery 3 cols</h1></div>
+<div id="page_top"></div>
+<div class="submenu" id="portfolio-filter">
+
+
+			<span class="custom_font" style="padding-right:6px">Filter: </span>
+			<a href="#all" title="" rel="all" class="custom_font">All</a>
+			<a href="#category1" title="" rel="category1" class="custom_font">Category 1</a>
+			<a href="#category2" title="" rel="category2" class="custom_font">Category 2</a>
+		<a href="#category3" title="" rel="category3" class="custom_font">Category 3</a>
+
+	</div>
+<div class="scroll-pane">
+<div class="page_block">
+
+<!-- first row -->
+<ul class="portfolio3c margin_1line" id="portfolio-list">		
+		<li class="category2 category3">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/1.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/1.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>
+		<li class="category1 category2">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/2.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/2.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category2">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/3.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/3.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category3">
+			<!-- Gallery item with fancybox and captions -->
+			<div class="item">
+				<img src="gallery/3c/4.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/4.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category1 category2 category3">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/5.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/5.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category1 category3">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/6.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/6.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category3 category2">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/7.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/7.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category2">
+			<!-- Gallery item with fancybox and caption -->
+						<div class="item">
+				<img src="gallery/3c/8.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/8.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category3 category1">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/9.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/9.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+		</li>	
+		<li class="category2 category3">
+			<!-- Gallery item with fancybox and caption -->
+			<div class="item">
+				<img src="gallery/3c/10.jpg" alt="Caption Text"/>
+				<a class="gallery_group" rel="gallery_group" href="gallery/full/10.jpg" title="This is photo description">
+				</a>
+				<div class="details">
+					<div class="mblogfooter2 custom_font"><p>Photo title</p></div>
+				</div>				
+			</div>
+	</li>
+</ul>
+</div><!-- page-block div end -->
+<div class="page-footer">&copy; BIG Gallery</div>
+
+</div><!-- scroll-pane div end -->
+
+
+</div><!-- page div end -->
+<div id="img-pattern"></div>
+<!-- audio player -->
+<div id="audio">
+	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+  <div id="jp_container_1" class="jp-audio"><div class="jp-type-single"></div></div>
+</div><!-- end audio div -->
+
+</body>
+</html>
