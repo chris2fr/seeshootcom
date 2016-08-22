@@ -966,7 +966,7 @@ if($page.length)
 			$(this).stop().fadeTo(0,1);
 			$(this).append('<a href="#"  class="loupe"></a>');
 			$(this).children(".loupe").css("top",$(this).innerHeight()/2-$(this).children(".loupe").innerHeight()/2 + "px").css('left',$(this).innerWidth()/2-$(this).children(".loupe").innerWidth()/2 + "px");
-			$(this).append('<img src="img/shadow.png" class="shadow" />');
+			$(this).append('<img src="/img/shadow.png" class="shadow" />');
 			$(this).children(".shadow").css("width",$(this).innerWidth());
 			$(this).children(".shadow").css("top",$(this).innerHeight() + 1 +'px');
 		});
@@ -989,7 +989,7 @@ if($page.length)
 				$(this).css('visibility','visible');
 				$(this).stop().fadeTo(0,1);
 				$(this).children(".mblogfooter").css('left',$(this).innerWidth()/2-$(this).children(".mblogfooter").innerWidth()/2 + "px");
-				$(this).append('<img src="img/shadow.png" class="shadow" />');
+				$(this).append('<img src="/img/shadow.png" class="shadow" />');
 				$(this).children(".shadow").css("width",$(this).innerWidth());
 				$(this).children(".shadow").css("top",$(this).innerHeight() + 1 +'px');
 			}
@@ -1121,13 +1121,13 @@ if($page.length)
 
 
 
-	$('.submenu').append('<img src="img/shadow.png" class="shadow" />');
+	$('.submenu').append('<img src="/img/shadow.png" class="shadow" />');
 	$('.submenu').children(".shadow").css("width",$('.submenu').innerWidth());
 	$('.submenu').children(".shadow").css("top",$('div.big_header').innerHeight() + $('.submenu').innerHeight()  +'px');
 	
   if(!agentID)
 	{
-		$('.page-footer').append('<img src="img/shadow_reverse.png" class="shadow-reverse" />');
+		$('.page-footer').append('<img src="/img/shadow_reverse.png" class="shadow-reverse" />');
 		$('.page-footer').children(".shadow-reverse").css("width",$('.page-footer').innerWidth());
 		$('.page-footer').children(".shadow-reverse").css("top", $('.page_block').innerHeight() -$('.shadow-reverse').innerHeight()+ 'px'); 
 	
@@ -1135,7 +1135,7 @@ if($page.length)
 				function(index)
 				{
 					var position = $(this).position();
-					$(this).after('<img src="img/shadow.png" class="shadow" />');
+					$(this).after('<img src="/img/shadow.png" class="shadow" />');
 					$(this).next(".shadow").css("width",$(this).innerWidth());
 					$(this).next(".shadow").css("top",position.top + $(this).innerHeight() -7);
 					$(this).next(".shadow").css("left",position.left);
@@ -1146,7 +1146,7 @@ if($page.length)
 				function(index)
 				{
 					var position = $(this).position();
-					$(this).after('<img src="img/shadow.png" class="shadow" />');
+					$(this).after('<img src="/img/shadow.png" class="shadow" />');
 					$(this).next(".shadow").css("width",$(this).innerWidth());
 					$(this).next(".shadow").css("top",position.top + $(this).innerHeight() -7);
 					$(this).next(".shadow").css("left",position.left);
@@ -1580,7 +1580,7 @@ if($page.length)
 		$('.responsiveslides-div').each(
 			function(index) {
 				var position = $(this).position();
-				$(this).after('<img src="img/shadow.png" class="shadow" alt=""/>');
+				$(this).after('<img src="/img/shadow.png" class="shadow" alt=""/>');
 				$(this).next(".shadow").css("width", $(this).innerWidth() + 'px');
 				$(this).next(".shadow").css("top",position.top + $(this).innerHeight() + 2);
 				$(this).next(".shadow").css("left",position.left);
@@ -1727,7 +1727,7 @@ if($page.length)
 			$(this).css('width',$(this).children('img').innerWidth() + 'px');
 			
 			$(this).children(".loupe").css("top",$(this).innerHeight()/2-$(this).children(".loupe").innerHeight()/2 + "px").css('left',$(this).innerWidth()/2-$(this).children(".loupe").innerWidth()/2 + "px");
-			$(this).append('<img src="img/shadow.png" class="shadow" />');
+			$(this).append('<img src="/img/shadow.png" class="shadow" />');
 			$(this).children(".shadow").css("width",$(this).innerWidth());
 			$(this).children(".shadow").css("top",$(this).innerHeight() + 1 +'px');
 		});

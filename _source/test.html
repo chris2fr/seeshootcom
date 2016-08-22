@@ -1,0 +1,28 @@
+---
+title: test
+lang: fr
+items: 
+  fr:
+    - title: Premier item
+	
+	- title: Deuxième item
+		
+  en:
+    - title: First Item
+	
+	- title: Second Item
+---
+
+<html>
+<head>
+	<title>{{title}}</title>
+</head>
+<body>
+	<h1>{{page.title}}</h1>
+	<ol>
+		{% for item in page.items[page.lang] %}
+		<li>{{item.title}}</li>
+		{% endfor %}
+	</ol>
+</body>
+</html>

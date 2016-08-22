@@ -2,7 +2,7 @@
 <div id="menu">
 		<!-- Superfish menu start -->
 		<ul class="sf-menu sf-vertical">
-			{% for item in site.data.menuitems %}
+			{% for item in site.data[page.lang].menuitems %}
 			<li>
 				<a href="{{item.link}}">{{item.label}}</a>
 			</li>
