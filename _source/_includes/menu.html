@@ -1,0 +1,13 @@
+<!-- Menu div start -->
+<div id="menu">
+		<!-- Superfish menu start -->
+		<ul class="sf-menu sf-vertical">
+			{% for item in site.data.menuitems %}
+			<li>
+				<a href="{{item.link}}">{{item.label}}</a>
+			</li>
+			{% endfor %}
+	</ul><!-- Superfish menu end -->
+		<!-- Social and stock icons start -->
+		<!-- Social and stock icons end -->
+</div><!-- Menu div end -->

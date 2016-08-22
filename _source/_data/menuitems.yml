@@ -1,0 +1,14 @@
+- label: HOME
+  link: /index.html
+
+- label: PRESTATIONS PHOTO
+  link: /prestations_photo.html
+  
+- label: STUDIO EN LOCATION
+  link: /studio_location.html
+  
+- label: ACCES CLIENT
+  link: http://photos.seeshoot.com
+  
+- label: CONTACT
+  link: /contact.html
