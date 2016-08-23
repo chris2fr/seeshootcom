@@ -1,9 +1,12 @@
 - label: HOME
   link: /fr/
 
-- label: PRESTATIONS PHOTO
-  link: /fr/prestations_photo/
-  
+- label: SHOOTING
+  link: /fr/shooting/
+  submenu:
+  - label: SHOOTING DE PERSONNES
+    link: /fr/shooting/personnes.html
+
 - label: STUDIO EN LOCATION
   link: /fr/studio_en_location/
   

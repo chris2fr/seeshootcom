@@ -5,6 +5,13 @@
 			{% for item in site.data[page.lang].menuitems %}
 			<li>
 				<a href="{{item.link}}">{{item.label}}</a>
+				{% if item.submenu %}
+				<ul>
+				{% for subitem in item.submenu %}
+						<li><a href="{{subitem.link}}">{{subitem.label}}</a></li>
+				{% endfor %}
+				</ul>
+				{% endif %}
 			</li>
 			{% endfor %}
 	</ul><!-- Superfish menu end -->

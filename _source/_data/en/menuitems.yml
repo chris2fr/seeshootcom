@@ -1,8 +1,11 @@
 - label: HOME
   link: /en/
   
-- label: PHOTOGRAPHER SERVICES
-  link: /en/photographer_services/
+- label: SHOOTS
+  link: /en/shoots/
+  submenu:
+  - label: PEOPLE SHOOTS
+    link: /en/shoots/people.html
   
 - label: STUDIO RENTAL
   link: /en/studio_rental/
