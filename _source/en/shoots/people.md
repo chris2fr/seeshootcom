@@ -5,7 +5,6 @@ lang: en
 ---
 
 Come as you are (un)prepared for a moment of discovery. I believe that portrait and group photography is all about showing the inside from the outside, in a favorable light of course. My studio is at Denfert-Rochereau in the 14th in Paris. We can shoot inside or in the area portraits, CV, social media shots, business portraits, family and children shots. 
-{: .margin_1line}
 
 ## Studio Person(s) Shoot
 {: .margin_2line}

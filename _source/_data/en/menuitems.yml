@@ -6,6 +6,9 @@
   submenu:
   - label: PEOPLE SHOOTS
     link: /en/shoots/people.html
+
+  - label: PRODUCT SHOOTS
+    link: /en/shoots/products.html
   
 - label: STUDIO RENTAL
   link: /en/studio_rental/

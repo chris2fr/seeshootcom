@@ -4,14 +4,16 @@ layout: blog
 lang: fr
 ---
 
-## Photos de produits
+## [Portraits](/fr/shooting/personnes)
+{: .margin_2line .margin_bottom_1line}
+
+Je peux vous mettre en valeur comme vous êtes.
+
+## [Photos de produits](/fr/shooting/produits)
 {: .margin_2line .margin_bottom_1line}
 
 Je suis photographe pour la mise en valeur de tous vos produits de toutes tailles.
 
-## Portraits
-{: .margin_2line .margin_bottom_1line}
-Je peux vous mettre en valeur comme vous êtes.
 
 ## Communication d'entreprise
 {: .margin_2line .margin_bottom_1line}
