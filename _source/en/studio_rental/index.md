@@ -10,7 +10,7 @@ layout: blog
 You have a 40 sq meter or 450 sq-foot photo studio to use. It is an old operating room. Cool! There also is a 10 sq meter annex to depose materiel.
 {: .margin_1line}
 
-The studio is equipped with a product-shot table, two flashes and soon with two frenels. The is a cloth background. 
+The studio is equipped with a product-shot table, two flashes and soon with two frenels. The is a cloth background. Here is a video of the rental studio in action on France 3 : <https://www.youtube.com/watch?v=t1k8PqMG6cE>.
 {: .margin_1line}
 
 Should you need extra equipment or a paper background, it will be available to you by rental. 
