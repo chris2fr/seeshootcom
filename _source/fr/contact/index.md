@@ -4,8 +4,15 @@ layout: blog
 lang: fr
 ---
 
+SeeShoot.com, Christopher MANN photographie et informatique est un site internet de
+
+
+  MANN EIRL  
+  SIREN 429 128 820 00066 - APE 7420ZR
+
 ## Adresse
 
+4e ŒIL PHOTO STUDIO  
 82 avenue Denfert-Rochereau  
 75014 PARIS
 
@@ -13,7 +20,7 @@ Une fois sur le site des Grands Voisins, dirigez-vous tout droit devant la Linge
 
 ## Téléphone
 
-tél. +33 7 81 811 811
+tél. **+33 7 81 81 18 11**
 
 ## Courriel
 

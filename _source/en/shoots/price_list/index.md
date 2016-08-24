@@ -10,7 +10,7 @@ fr: /fr/shooting/tarifs.html
 | Shooting  | Makeup ? | Price  | % 4th Eye |
 |-----------+----------+--------+-----------|
 | Digital Portfolio Shoot : 1 hour / 1 Outfit / 10 Retouched Photos | No  | 100 € | 5% |
-| Digital Portfolio Shoot : 90 minutes/ 1 Outfit / 15 Retouched Photos | Yes | 200 € | 5% |
+| Digital Portfolio Shoot : 90 minutes / 1 Outfit / 15 Retouched Photos | Yes | 200 € | 5% |
 | Digital Portfolio Shoot : Up to 2 hours / 2 Outfits / 30 Retouched Photos | Yes | 300 € | 10% |
 
 
@@ -20,7 +20,7 @@ fr: /fr/shooting/tarifs.html
 | Shooting  | Makeup ? | Price  | % 4th Eye |
 |-----------+----------+--------+-----------|
 | Digital Portfolio Shoot :  1 hour / 1 Outfit / 5 Retouched Photos | No  | 150 € | 5% |
-| Digital Portfolio Shoot : 90 minutes/ 1 Outfit / 12 Retouched Photos | Yes | 250 € | 10% |
+| Digital Portfolio Shoot : 90 minutes / 1 Outfit / 12 Retouched Photos | Yes | 250 € | 10% |
 | Digital Portfolio Shoot : Up to 2 hours / 2 Outfits / 20 Retouched Photos | Yes | 350 € | 10% |
 
 

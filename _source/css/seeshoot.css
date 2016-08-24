@@ -6,3 +6,7 @@
 	margin-top:20px !important;
 	margin-bottom:20px !important;
 }
+
+#page_block td {
+  line-height:20px !important;
+}

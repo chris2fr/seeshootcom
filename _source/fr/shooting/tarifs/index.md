@@ -9,8 +9,8 @@ en: /en/shoots/prices.html
 
 | Prestations  | Présence d’une maquilleuse professionnelle | Tarifs  | % reversé à notre association |
 |--------------+--------------------------------------------+---------+-------------------------------|
-| Book Photo Numérique : 1H00 /1 tenue / 10 photographies retouchées.   | Non  | 100 € | 5% |
-| Book photo numérique : 1H30/ 1 tenue / 15 Photographies retouchées | Oui | 200 € | 5% |
+| Book Photo Numérique : 1H00 / 1 tenue / 10 photographies retouchées.   | Non  | 100 € | 5% |
+| Book photo numérique : 1H30 / 1 tenue / 15 Photographies retouchées | Oui | 200 € | 5% |
 | Book Photo Numérique : 2H00 / 2 tenues / 30 photographies retouchées | Oui | 300 € | 10% |
 
 
@@ -19,8 +19,8 @@ en: /en/shoots/prices.html
 
 | Prestations  | Présence d’une Maquilleuse professionnelle | Tarifs  | % reversé à notre association |
 |--------------+--------------------------------------------+---------+-------------------------------|
-| Book Photo Numérique :  1H00 /1 tenue / 5 photographies retouchées.   | Non  | 150 € | 5% |
-| Book photo numérique : 1H30/ 1 tenue / 12 Photographies retouchées | Oui | 250 € | 10% |
+| Book Photo Numérique :  1H00 / 1 tenue / 5 photographies retouchées.   | Non  | 150 € | 5% |
+| Book photo numérique : 1H30 / 1 tenue / 12 Photographies retouchées | Oui | 250 € | 10% |
 | Book Photo Numérique : 2H00 / 2 tenues / 20 photographies retouchées | Oui | 350 € | 10% |
 
 
