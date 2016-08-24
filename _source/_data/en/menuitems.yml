@@ -5,10 +5,13 @@
   link: /en/shoots/
   submenu:
   - label: PEOPLE SHOOTS
-    link: /en/shoots/people.html
+    link: /en/shoots/persons/
 
   - label: PRODUCT SHOOTS
-    link: /en/shoots/products.html
+    link: /en/shoots/products/
+    
+  - label: PRICE LIST
+    link: /en/shoots/price_list/
   
 - label: STUDIO RENTAL
   link: /en/studio_rental/

@@ -2,6 +2,7 @@
 title: Tarifs
 lang: fr
 layout: about
+en: /en/shoots/prices.html
 ---
 
 ## Portrait Book / 1 personne

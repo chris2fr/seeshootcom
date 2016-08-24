@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^seeshoot.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^mann.fr$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.mann.fr$ [NC]
+RewriteRule ^(.*)$ http://www.seeshoot.com/$1 [R=302,L]

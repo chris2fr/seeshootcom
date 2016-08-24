@@ -4,11 +4,14 @@
 - label: SHOOTING
   link: /fr/shooting/
   submenu:
-  - label: SHOOTING DE PERSONNES
-    link: /fr/shooting/personnes.html
+  - label: Shooting de personnes
+    link: /fr/shooting/personnes/
 
-  - label: SHOOTING DE PRODUITS
-    link: /fr/shooting/produits.html
+  - label: Shooting de produits
+    link: /fr/shooting/produits/
+    
+  - label: Tarifs
+    link: /fr/shooting/tarifs/
 
 - label: STUDIO EN LOCATION
   link: /fr/studio_en_location/
