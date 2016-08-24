@@ -103,7 +103,7 @@ function sendEmail()
 	//alert('send');
 	http.open("POST", "php/validate.php");
 	http.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    http.send("mail=1" + "&name=" + (document.getElementById("name").value) + "&email=" + (document.getElementById("email").value)+ "&message=" + (document.getElementById("message").value));
+  http.send("mail=1" + "&name=" + (document.getElementById("name").value) + "&email=" + (document.getElementById("email").value)+ "&message=" + (document.getElementById("message").value));
 
 	http.onreadystatechange = handleHttpResponse;
 }
@@ -131,7 +131,7 @@ function handleHttpResponse() {
 
 			var formInput = document.getElementById(formId);
 
-			document[formId].src = "img/blank.png";
+			document[formId].src = "img/blank.gif";
 			formInput.style.border = "1px solid #aaa";
 			formInput.style.background = "#ffffff";
 		}
@@ -143,7 +143,7 @@ function handleHttpResponse() {
 				$('input:not([type=submit]):not([type=button]):not([type=hidden])').each(
 					function()
 					{
-						$( this ).css( "border" , "1px solid black" );
+						$( this ).css( "border" , "1px solid #aaa" );
 						var f_name = $(this).attr("id");
 						document[f_name].src =  "img/blank.png";
 					}
@@ -151,7 +151,7 @@ function handleHttpResponse() {
 				$('textarea').each(
 					function()
 					{
-						$( this ).css( "border" , "1px solid black" );
+						$( this ).css( "border" , "1px solid #aaa" );
 						var f_name = $(this).attr("id");
 						document[f_name].src = "img/blank.png";
 					}
@@ -169,7 +169,7 @@ function handleHttpResponse() {
 				function(index)
 				{
 					var position = $(this).position();
-					//$(this).after('<img src="img/shadow.png" class="shadow" />');
+					//$(this).after('<img src="/img/shadow.png" class="shadow" />');
 					$(this).next(".shadow").css("width",$(this).innerWidth());
 					$(this).next(".shadow").css("top",position.top + $(this).innerHeight() -7 );
 					$(this).next(".shadow").css("left",position.left);
@@ -180,7 +180,7 @@ function handleHttpResponse() {
 				function(index)
 				{
 					var position = $(this).position();
-					//$(this).after('<img src="img/shadow.png" class="shadow" />');
+					//$(this).after('<img src="/img/shadow.png" class="shadow" />');
 					$(this).next(".shadow").css("width",$(this).innerWidth());
 					$(this).next(".shadow").css("top",position.top + $(this).innerHeight() -7 );
 					$(this).next(".shadow").css("left",position.left);

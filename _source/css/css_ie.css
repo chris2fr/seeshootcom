@@ -14,7 +14,7 @@ h1.big_header {
 }
 
 .page_block {
-	background: #222222 !important;
+	background: white !important;
 }
 
 .submenu a:hover {
@@ -22,14 +22,14 @@ h1.big_header {
 }
 
 .butt  , .butt:focus {
-		background: #161616 !important;
+		background: white !important;
 		background-image: url(../img/button_arrow.png) !important;
 		background-position: right center !important;
 		background-repeat:no-repeat !important;
 }
 
 .butt:hover, .butt:active {
-		background: #161616 !important;
+		background: white !important;
 		background-image: url(../img/button_arrow_hover.png) !important;
 		background-position: right center !important;
 		background-repeat:no-repeat !important;

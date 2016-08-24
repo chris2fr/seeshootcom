@@ -290,7 +290,7 @@ var img_prop =$background_img.width()/$background_img.height();
 		$("#thumbnails_bg").css('visibility','visible');
 		$gallery_show.css('visibility','visible');
 		$desc_info.attr('class','item_1');
-		if($('#desc_item_1').html()) {$desc_info.css('visibility','visible');} else {$desc_info.css('visibility','hidden');}
+		if(!$('#desc_'+ $desc_info.attr('id')).html()) {$desc_info.css('visibility','visible');}
 		$gallery_img.css('visibility','visible');
 
 	
@@ -904,17 +904,17 @@ else
 			show: { effect: { type: 'slide', length: 0 } },
 			style: {	 
       'padding': '6px',
-      'background': '#0c0c0c',
-      'color': '#c0c0c0',
+      'background': '#ffffff',
+      'color': '#4f4f4f',
       'textAlign': 'center',
 			width: { min: 100 },
       border: {
          width: 0,
-         color: '#333333'
+         color: '#ffffff'
       },
       tip: { 
          corner: 'topLeft', // We declare our corner within the object using the corner sub-option
-         color: '#0c0c0c',
+         color: '#ffffff',
          size: {
             x: 15, // Be careful that the x and y values refer to coordinates on screen, not height or width.
             y : 10 // Depending on which corner your tooltip is at, x and y could mean either height or width!
@@ -1114,8 +1114,8 @@ if($page.length)
 			$('.page-footer').children(".shadow-reverse").css("top", $('.page_block').innerHeight() -$('.shadow-reverse').innerHeight()+ 'px'); 
         });
 	}
-
 	
+
 	
 /***** FILTERABLE  *****/  
 
@@ -1190,7 +1190,7 @@ if($page.length)
 			$(this).prop('title', $(this).data('title'));
 		}
 	});
-
+	
 	$("a[rel=gallery_group]").fancybox({
 				'transitionIn'	: 'fade',
 				'transitionOut'	: 'elastic',
@@ -1498,9 +1498,9 @@ if($page.length)
 			$(".tinynav").css('color','black');
 		}	
   });
-	
-
-
+  
+  
+  
 	/*****    TOUCH SWIPE   *****/  	
 
 
@@ -1517,7 +1517,7 @@ if($page.length)
 			threshold:150,
 			fingers:1
 		});
-	}
+	}	
 	
 	
 	
@@ -1586,7 +1586,8 @@ if($page.length)
 				$(this).next(".shadow").css("left",position.left);
 		});
 	}		
-	
+
+
 	
 	/***** RESIZEING   *****/  
 	
@@ -1606,7 +1607,7 @@ if($page.length)
 	
 	var obj = $("#gallery img");
 	var l = obj.length;
-	var $slider_wrapper = $('#slider div.caroufredsel_wrapper');
+ var $slider_wrapper = $('#slider div.caroufredsel_wrapper');
 	
 	// slide width
 	var slide = $(obj.get(2)).innerWidth();
@@ -1624,9 +1625,9 @@ if($page.length)
 	$gallery.css("height",w_height - margin_top + "px");
 	//alert($slider_wrapper.css('height'));
 	$slider_wrapper.css({'margin-top':margin_top+'px'});
-	$(obj.get(2)).fadeTo('fast',1);
+  $(obj.get(2)).fadeTo('fast',1);
 	
-		if($('#slider').length) {	cfs.configuration("height", w_height); }
+		if($('#slider').length) 		cfs.configuration("height", w_height);
 		$('#slider div.caroufredsel_wrapper').css("height",w_height - margin_top +'px');
 		$('#slider').css('width',w_width);
 		$('#slider').css('height',w_height);
@@ -1827,7 +1828,7 @@ if($page.length)
 		$('.submenu').children(".shadow").css("top",$('div.big_header').innerHeight() + $('.submenu').innerHeight()  +'px');
 		$('.page-footer').children(".shadow-reverse").css("width",$('.page-footer').innerWidth());
 		$('.page-footer').children(".shadow-reverse").css("top", $('.page_block').innerHeight() -$('.shadow-reverse').innerHeight()+ 'px');
-		
+	
 		$('input:not([type=submit]):not([type=button]):not([type=hidden]):not([type=checkbox])').each(
 				function(index)
 				{
@@ -1868,8 +1869,8 @@ if($page.length)
 		}
 	});
 	
-	
 
+	
 		/***** END OF RESIZEING   *****/  
 		
 		
