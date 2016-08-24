@@ -25,7 +25,7 @@ Le studio du 4e œil et le studios photo et vidéo des Grands voisins se trouven
 
 Bref, nous sommes au sein d'une communauté artistique professionnel et associative.
 
-## [les Grands voisins](http://www.lesgrandsvoisins.org) (site Hôpital Saint-Vincent de Paul)
+## [les Grands voisins](http://www.lesgrandsvoisins.org) (site Hôpital Saint-Vincent-de-Paul)
 
 Les Grands voisins est un site éphémère vivant d'artistes, d'associations, d'artesans, d'entreprises, de foyers, d'œuvrs artistiques, d'animations de rue, d'un camping, etc. Bref, ça bouge ici et c'est singulier. 
 
