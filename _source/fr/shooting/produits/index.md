@@ -12,6 +12,8 @@ Le but est de mettre la passion du produit dans les mains de vos prospects. Nous
 
 La table plexiglass donne une flexibilité d'illuminer ou de ne pas illuminer de tout angle et de toute forme. Par ailleurs, nous controlons la perspective avec un objectif de dècentrement. 
 
+
 ## Ami des informaticiens et de la logistique
+
 
 Dôté d'expérience dans la programmation, je suis particulièrement sensible à la logistique et les contraintes de publication de commerce électronique. Il peut arriver aussi de codifier les produits lors de la prise photo.
