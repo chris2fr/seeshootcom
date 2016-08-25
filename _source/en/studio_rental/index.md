@@ -10,6 +10,8 @@ You have a 40 sq meter or 450 sq-foot photo studio to use. It is an old operatin
 
 The studio is equipped with a product-shot table, two flashes and soon with two frenels. The is a cloth background. Here is a video of the rental studio in action on France 3 : <https://www.youtube.com/watch?v=t1k8PqMG6cE>.
 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/t1k8PqMG6cE" frameborder="0" allowfullscreen></iframe>
+
 Should you need extra equipment or a paper background, it will be available to you by rental. 
 
 ## Prices
