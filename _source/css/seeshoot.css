@@ -7,6 +7,6 @@
 	margin-bottom:20px !important;
 }
 
-#page_block td {
+#page_block td, th {
   line-height:20px !important;
 }
